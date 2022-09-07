@@ -1,0 +1,44 @@
+{
+  "name": "pro-event-bus-ts",
+  "version": "1.0.0",
+  "description": "event,event-bus,event-center",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "npm run clean && gulp build"
+  },
+  "keywords": [
+    "event",
+    "event-bus",
+    "event-center"
+  ],
+  "author": "lijylee",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/plugin-transform-runtime": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/runtime": "^7.18.9",
+    "@babel/runtime-corejs3": "^7.18.9",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "rollup": "^2.77.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "@babel/runtime": ">=7.17.7",
+    "@babel/runtime-corejs3": ">=7.17.7"
+  }
+}
